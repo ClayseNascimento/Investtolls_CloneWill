@@ -1,0 +1,246 @@
+body {
+  background-color: #FFF;
+  margin: 0;
+
+  overflow-x: hidden;
+}
+
+#main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* HEADER INICIO */ 
+header{
+  position: fixed;
+  top: 0;
+
+  background-color: #FD0;
+  width: 100%;
+  height: 9vh;
+}
+
+header a{
+  margin-left: 64px;
+}
+
+header a img{
+  margin-top: 0.8vw;
+
+  width: 120px;
+  height: 40px;
+}
+/* HEADER FIM */ 
+
+/* PRIMEIRA SECAO INICIO */
+#first-section{
+  display: flex;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #FD0;
+}
+
+#first-section .first-section-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#first-section .first-section-content .first-section-text{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+
+  margin-right: 64px;
+}
+
+#first-section .first-section-content .first-section-text p{
+  width: 192px;
+  text-align: right;
+  margin-bottom: -64px;
+
+  font-family: 'PT Sans', sans-serif;
+  font-size: 32px;
+
+  opacity: 0.7;
+}
+
+#first-section .first-section-content .first-section-text h1{
+  width: 28vw;
+  text-align: right;
+  line-height: 64px;
+  
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 64px;
+}
+
+#first-section .first-section-content .first-section-text button{
+  width: 264px;
+  height: 48px;
+
+  background-color: #000;
+  color: #FFF;
+  border: none;
+  border-radius: 24px;
+
+  font-family: 'PT Sans', sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+#first-section .first-section-content .first-section-text button:hover{
+  cursor: pointer;
+}
+
+#first-section .first-section-video{
+  width: 52vw;
+  height: 62vh;
+  padding: 8px;
+
+  background-color: #FFF;
+
+  border-radius: 16px;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#first-section .first-section-video .first-section-video-header{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.6vw;
+
+  width: 30px;
+  height: 24px;
+
+}
+
+#first-section .first-section-video .first-section-video-header .first-dot,
+#first-section .first-section-video .first-section-video-header .second-dot,
+#first-section .first-section-video .first-section-video-header .third-dot{
+  width: 8px;
+  height: 8px;
+
+  background-color: #000;
+
+  border-radius: 50%;
+}
+
+#first-section .first-section-video .first-section-video-header .first-dot {
+  background-color: #ED6C5F;
+}
+
+#first-section .first-section-video .first-section-video-header .second-dot {
+  background-color: #F5BF50;
+}
+
+#first-section .first-section-video .first-section-video-header .third-dot {
+  background-color: #63C555;
+}
+
+#first-section .first-section-video iframe{
+  width: 52vw;
+  height: 58vh;
+  margin-top: -7px;
+
+  border: none;
+
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+/* PRIMEIRA SECAO FIM */
+
+
+
+/* SEGUNDA SESSÃO INICIO */
+
+#second-section {
+ background-image: url(assets/Mulher.jpg);
+ background-repeat: no-repeat;
+ background-position: top;
+ background-size: cover;
+ display: flex;
+ align-items: flex-end;
+ justify-content: center;
+ padding: 0;
+ min-height: 1077px;
+ min-width: 1400px;
+}
+
+
+#second-section .second-section-content{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  max-width: 690px;
+  max-height: 990px;
+  border-radius: 25px;
+  background-color: #000;
+  flex: 100%;
+  margin:10%;
+
+  
+}
+
+#second-section .second-section-content .cards{
+  padding-right: 0%;
+  padding-top: 8px;;
+  flex-direction: column;
+  position:relative;
+  width: 50%;
+  margin-top: 5%;
+}
+
+#second-section .second-section-content .second-section-text h2 {
+  color: #fd0;
+  text-align: unset;
+  line-height: 70px;
+  margin-bottom: 2rem;
+  font-size: 65px;
+  font-family: IBM Plex Serif,serif;
+  padding-left: 15px;
+}
+
+#second-section .second-section-content .second-section-text p{
+  border: 1px solid #fff;
+  color: #fff;
+  line-height: 5px;
+  border-radius: 25px;
+  max-width: 410px;
+  margin: 14px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-family: IBM Plex Serif,serif;
+  }
+
+#second-section .lista-second-section {
+  position: relative;
+  background-color: #fd0;
+  border-radius: 25px;
+  top: 85px;
+  margin: 35px;
+  justify-content: center;
+  
+}
+
+
+#second-section .lista-second-section ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  
+  
+
+}
+
+
+/* SEGUNDA SESSÃO FIM */
