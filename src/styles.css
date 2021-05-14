@@ -164,55 +164,51 @@ header a img{
  background-repeat: no-repeat;
  background-position: top;
  background-size: cover;
+ width: 100vw;
+ height: 150vh;
  display: flex;
- align-items: flex-end;
+ align-items: center;
  justify-content: center;
+ flex-direction: column;
  padding: 0;
- min-height: 1077px;
- min-width: 1400px;
 }
 
 
 #second-section .second-section-content{
   display: flex;
   align-items: center;
-  justify-content: right;
-  max-width: 690px;
-  max-height: 990px;
+  justify-content: center;
+  width: 54vw;
+  height: 70vh;
   border-radius: 25px;
   background-color: #000;
-  flex: 100%;
-  margin:10%;
-
+  margin-top: 30vw;
   
 }
 
 #second-section .second-section-content .cards{
-  padding-right: 0%;
-  padding-top: 8px;;
-  flex-direction: column;
-  position:relative;
   width: 50%;
-  margin-top: 5%;
+
+}
+
+#second-section .second-section-content .second-section-text {
+  margin-top: -64px;
+  margin-left: 40px;
 }
 
 #second-section .second-section-content .second-section-text h2 {
   color: #fd0;
-  text-align: unset;
-  line-height: 70px;
   margin-bottom: 2rem;
+  line-height: 70px;
   font-size: 65px;
   font-family: IBM Plex Serif,serif;
-  padding-left: 15px;
 }
 
 #second-section .second-section-content .second-section-text p{
   border: 1px solid #fff;
   color: #fff;
   line-height: 5px;
-  border-radius: 25px;
-  max-width: 410px;
-  margin: 14px;
+  border-radius: 25px;  
   padding: 10px;
   text-align: center;
   font-size: 14px;
@@ -220,15 +216,17 @@ header a img{
   }
 
 #second-section .lista-second-section {
-  position: relative;
+  display: flex;
+  width: 70vw;
+  align-items: center;
+  height: 18vh;
+  justify-content: center;
   background-color: #fd0;
   border-radius: 25px;
-  top: 85px;
-  margin: 35px;
-  justify-content: center;
-  
+  box-sizing: border-box;
+  margin-top: 64px;
+  margin-bottom: -56px;
 }
-
 
 #second-section .lista-second-section ul{
   display: flex;
@@ -237,9 +235,28 @@ header a img{
   justify-content: space-around;
   padding: 0;
   margin: 0;
-  
-  
+  text-align: center;
+  font-family: IBM Plex Serif,serif;
+}
 
+#second-section .lista-second-section .mais{
+  margin: 0 50px;
+  font-size: 24px;
+}
+
+#second-section .lista-second-section ul li {
+  line-height: 4px;
+}
+
+
+#second-section .lista-second-section ul li p{
+  font-size: 14px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+#second-section .lista-second-section ul li h1{
+  font-size: 30px;
 }
 
 
