@@ -5,6 +5,19 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar{
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track{
+  background: #f5f5f5; 
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #000;
+  border-radius: 8px;;
+}
+
 #main{
   display: flex;
   align-items: center;
@@ -460,5 +473,118 @@ header a img{
  
 }
 
+/* TERCEIRA SEÇÃO FIM */
 
-/* FIM QUARTA SEÇÃO */
+
+
+/* QUINTA SEÇÃO INÍCIO */
+
+#fifth-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 150vh;
+
+  font-family: 'PT Sans', sans-serif;
+}
+
+#fifth-section .fifth-section-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-top: -66px;
+}
+
+#fifth-section .fifth-section-header h1{
+  font-family: 'IBM Plex Serif', serif;
+
+  font-size: 72px;
+  font-weight: 700;
+}
+
+#fifth-section .fifth-section-header span{
+  padding: 8px 14px;
+  margin-top: -56px;
+
+  border: 1px solid #000;
+  border-radius: 24px;
+
+  font-size: 25px;
+}
+
+#fifth-section .fifth-section-header p{
+  width: 20vw;
+  text-align: center;
+
+  border: none;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+#fifth-section .fifth-section-body{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: -88px;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+#fifth-section .first-slide-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 60vh;
+
+  border-radius: 48px;
+  background-color: #F5F5F5;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#fifth-section .first-slide-container .first-slide-container-images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 20vw;
+  height: 30vh;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#fifth-section .fifth-section-body button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 34px;
+  height: 34px;
+
+  margin-left: 80px;
+  margin-top: 16%;
+
+  border: none;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+#fifth-section .fifth-section-body button:last-child{
+  margin-left: 0;
+  margin-right: 80px;
+}
+
+#fifth-section .fifth-section-body button:hover{
+  cursor: pointer;
+}
+
+/* QUINTA SEÇÃO FIM */
