@@ -171,9 +171,9 @@ header a img{
 /* PRIMEIRA SEÇÃO FIM */
 
 
-/* SEGUNDA SESSÃO INICIO */
+/* SEGUNDA SEÇÃO INICIO */
 
-#second-section {
+#second-section{
  background-image: url(assets/Mulher.jpg);
  background-repeat: no-repeat;
  background-position: top;
@@ -186,7 +186,6 @@ header a img{
  flex-direction: column;
  padding: 0;
 }
-
 
 #second-section .second-section-content{
   display: flex;
@@ -205,12 +204,12 @@ header a img{
 
 }
 
-#second-section .second-section-content .second-section-text {
+#second-section .second-section-content .second-section-text{
   margin-top: -64px;
   margin-left: 40px;
 }
 
-#second-section .second-section-content .second-section-text h2 {
+#second-section .second-section-content .second-section-text h2{
   color: #fd0;
   margin-bottom: 2rem;
   line-height: 70px;
@@ -229,7 +228,7 @@ header a img{
   font-family: 'IBM Plex Serif',serif;
   }
 
-#second-section .lista-second-section {
+#second-section .lista-second-section{
   display: flex;
   width: 70vw;
   align-items: center;
@@ -260,23 +259,19 @@ header a img{
   font-size: 24px;
 }
 
-#second-section .lista-second-section ul li {
+#second-section .lista-second-section ul li{
   line-height: 4px;
 }
-
 
 #second-section .lista-second-section ul li p{
   font-size: 14px;
   font-family: 'PT Sans', sans-serif;
 }
 
-
 #second-section .lista-second-section ul li h1{
   font-size: 30px;
 }
-
-
-/* SEGUNDA SESSÃO FIM */
+/* SEGUNDA SEÇÃO FIM */
 
 /* TERCEIRA SEÇÃO INÍCIO */
 
@@ -285,9 +280,9 @@ header a img{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
+ 
   width: 100vw;
-  height: 160vh;
+  height: 175vh;
 
   background-color: #f5f5f5;
 }
@@ -388,6 +383,94 @@ header a img{
   font-family: 'PT Sans', sans-serif;
   font-size: 19px;
   font-weight: 400;
+}
+/* TERCEIRA SEÇÃO FIM */
+
+/* INICIO QUARTA SEÇÃO */
+#fourth-section{
+  width: 100%;
+  height: 100%;
+  padding: 5vh 7vw;
+  background-color: #fd0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: end;
+ 
+}
+
+#fourth-section .fourth-section-content .hand{
+  box-sizing: border-box;
+  font-family: PT Sans,sans-serif;
+  position: relative;
+  justify-self: center;
+  padding: 0;
+
+  /* justify-items: ; */
+
+}
+
+#fourth-section .fourth-section-content .hand img{
+  margin-right: -100px;
+  margin-left: 70px;
+  border-style: none;
+  width: 92%;
+  height: auto;
+
+
+}
+
+#fourth-section .fourth-section-content .box{
+  width: 40Vw;
+  height: 75vh;
+  background-color: #fff;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -20px;
+}
+
+#fourth-section .fourth-section-content .box h2{
+  font-family: IBM Plex Serif,serif;
+  font-size: 72px;
+  color: #000;
+  line-height: 72px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+
+}
+#fourth-section .fourth-section-content .box P{
+  font-family: PT Sans,sans-serif;
+  font-size: 25px;
+  color: #212529;
+  text-align: left;
+  line-height: 31px;
+  margin-left: 50px;
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+.btn{
+  background-color: transparent;
+  border: 1px solid;
+  border-color: #000;
+  color:#212529;
+  text-decoration: none;
+  border-radius: 35px;
+  text-align: center;
+  font-family: PT Sans,sans-serif;
+  font-size: 20px;
+  padding: 1.3rem .75rem;
+  line-height: 13px;
+  width: 270px;
+  margin-left: 113px;
+  
+ 
 }
 
 /* TERCEIRA SEÇÃO FIM */
