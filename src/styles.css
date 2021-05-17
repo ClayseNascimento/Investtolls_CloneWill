@@ -25,6 +25,30 @@ body::-webkit-scrollbar-thumb{
   flex-direction: column;
 }
 
+@keyframes bounce {
+  0% {
+    bottom: 16px;
+  }
+  10% {
+    bottom: 28px;
+  }
+  25% {
+    bottom: 16px;
+  }
+  50% {
+    bottom: 24px;
+  }
+  75% {
+    bottom: 16px;
+  }
+  85% {
+    bottom: 22px;
+  }
+  100% {
+    bottom: 16px;
+  }
+}
+
 /* HEADER INICIO */ 
 header{
   position: fixed;
@@ -52,7 +76,9 @@ header a img{
 /* PRIMEIRA SEÇÃO INICIO */
 #first-section{
   display: flex;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
 
   width: 100vw;
   height: 100vh;
@@ -166,6 +192,15 @@ header a img{
 
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
+}
+
+#first-section img{
+  position: absolute;
+
+  width: 25px;
+  bottom: 16px;
+
+  animation: bounce 2s infinite;
 }
 
 /* PRIMEIRA SEÇÃO FIM */
@@ -489,6 +524,7 @@ header a img{
   height: 150vh;
 
   font-family: 'PT Sans', sans-serif;
+  margin-bottom: 90px;
 }
 
 #fifth-section .fifth-section-header{
@@ -588,3 +624,130 @@ header a img{
 }
 
 /* QUINTA SEÇÃO FIM */
+
+/* FOOTER INICIO */
+
+#footer {
+  display: flex;  
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  background-color: #f4f4f4;
+  font-family: 'PT Sans',sans-serif;
+}
+
+#footer .footer-content{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  width: 100vw;
+}
+
+#footer .footer-content .arrow-up{
+  color: #000;
+  height: 30px;
+  width: 27px;
+  margin-right: 22px;
+  margin-top: -56px;
+}
+
+#footer .footer-content .logo-footer{
+  width: 128px;
+  margin-left: 64px;
+}
+
+#footer .footer-content .contato a{
+  color: #929292;
+
+  font-size: 17px;
+}
+
+#footer .footer-content .contato .social{
+  display: flex;
+}
+
+#footer .footer-content .contato .social a{
+  text-decoration: none;
+}
+
+#footer .footer-content .contato .email a{
+  text-decoration: none;
+}
+
+#footer .footer-content .contato .email a:hover{
+  text-decoration: underline;
+}
+
+#footer .footer-content .contato .social a img{
+  height: 22px;
+  margin-right: 16px;
+  
+  opacity: 0.7;
+}
+
+
+#footer .footer-content .contato p{
+  color: #929292;
+}
+
+#footer .footer-content .contato p.email a{
+  text-decoration: none;
+}
+
+#footer .footer-content .news p{
+  color: #929292;
+  line-height: 0px;
+}
+
+#footer .footer-content .news form{
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-content .news form input{
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  padding-left: 12px;
+}
+
+#footer .footer-content .news form button{
+  background-color: #27c280;
+  color: #fff;
+  width: 40px;
+  height: 42px;
+  border-radius: 6px;
+  border: none;
+}
+
+#footer .footer-content .news form button img{
+  width: 16px;
+  height: 16px;
+}
+
+#footer .footer-content .news h4,
+#footer .footer-content .vagas h4 {
+  margin-top: 0;
+}
+
+#footer .footer-content .vagas{
+  width: 250px;
+  margin-right: -48px;
+}
+
+#footer .footer-content .vagas p{
+  color: #929292;
+  margin-bottom: 0;
+  margin-top: -2px;
+  
+
+}
+
+#footer .footer-content .vagas a{
+  color: #929292;
+}
+ 
+/* FOOTER FIM */
